@@ -1,3 +1,9 @@
+# Body Building web scraper
+# Charles MacKay
+# input: body building website
+# output: .txt file of every exercise instruction on their website,
+# broken up into muscle group, and exercise step. 
+
 from urllib2 import urlopen
 from urllib2 import HTTPError
 from bs4 import BeautifulSoup
@@ -6,7 +12,6 @@ import pprint
 
 muscleNameList = []
 filteredMusGroup = []
-myshit=[]
 workout_dict = dict()
 exercise_dict = dict()
 

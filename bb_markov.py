@@ -1,3 +1,12 @@
+# Body Building Markov Model
+# Charles MacKay
+# this module will build 4 markov models based muscle group we selected.
+# the source is the text we scraped from the body building website
+# to produce 4 steps in our exercise.
+
+# input: muscle group
+# output: 4 markov models that can output a generated sentence corresponding to each step of the exercise
+
 import markovify
 import os
 import random

@@ -1,3 +1,12 @@
+# Aeshtetic twitter bot
+
+# uses data scraped from the body building website, bodybuilding.com
+
+# picks a random muscle group
+# generates a random title
+# generates a markov model to produce 4 unique steps 
+# tweets status as an image overlayed with instructions, with muscle groups and hashtags
+
 import bb_markov as bbm
 from math import ceil
 import textwrap
