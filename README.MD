@@ -1,4 +1,6 @@
 Twitterbot @robotaesthetic1
+
+
 This creative robot will generate a new exercise of the day “EotD” every 24 hours.
 It works by scraping bodybuilding.com for every exercise available. 
 It downloads all of the exercise descriptions as text, grouping them by muscle, title, and step number.
